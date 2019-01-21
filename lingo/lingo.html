@@ -1,0 +1,33 @@
+<DOCTYPE html>
+<html>
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link rel="stylesheet" href="css.css">
+<body>
+
+<div id="changeBg" onclick="off()">
+    <div id="textBox">
+        <span id="largeText">large text</span>
+        <br>
+        <span id="smallText">Click anywhere to continue or hit enter to play again.</span>
+        <br>
+        <span id="answerText"></span>
+    </div>
+</div>
+<img id="lingohead" src="testimg.png">
+
+<div id = "game">
+
+</div>
+
+<input id="userInput" type="text" maxlength="5" value = '' onkeyup="return forceLower(this);">
+<br>
+<button id = "button" class="button two" onclick="checkUserInput()">Check!</button>
+
+<script src = "lingo-nl.js"></script>
+<script src = "js.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</body>
+
+
+</html>

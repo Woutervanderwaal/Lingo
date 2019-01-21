@@ -1,0 +1,173 @@
+html{font-family: 'Roboto', sans-serif; background: linear-gradient(to right, #33ccff 0%, #cc99ff 100%);} 
+body{margin: 0; padding: 0;}
+
+input.inputs
+{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    font-size: 70px;
+    text-align: center;
+    margin-bottom: 8px;
+    margin-right: 4px;
+    border-radius: 50%;
+    border: none;
+}
+
+#game
+{
+    display: table;
+    margin: 0 auto;
+}
+
+#userInput
+{
+    position: relative;
+    top: 5px;
+    display: table;
+    margin: 0 auto;
+    height: 50px;
+    width: 150px;
+    font-size: 38px;
+}
+
+#button
+{
+    display: table;
+    margin: 0 auto;
+    border: none;
+    height: 60px;
+    width: 120px;
+    font-size: 26px;
+    font-weight: 550;
+    background-color: rgb(203, 239, 252);
+}
+
+#head
+{
+    text-align: center;
+    font-size: 50px;
+}
+
+#lingohead
+{
+    display: table;
+    margin: 0 auto;
+}
+
+.button.two {
+  background-repeat: no-repeat;
+  background-position: -120px -120px, 0 0;
+  
+  background-image: -webkit-linear-gradient(
+    top left,
+    rgba(255, 255, 255, 0.2) 0%,
+    rgba(255, 255, 255, 0.2) 37%,
+    rgba(255, 255, 255, 0.8) 45%,
+    rgba(255, 255, 255, 0.0) 50%
+  );
+  background-image: -moz-linear-gradient(
+    0 0,
+    rgba(255, 255, 255, 0.2) 0%,
+    rgba(255, 255, 255, 0.2) 37%,
+    rgba(255, 255, 255, 0.8) 45%,
+    rgba(255, 255, 255, 0.0) 50%
+  );    
+  background-image: -o-linear-gradient(
+    0 0,
+    rgba(255, 255, 255, 0.2) 0%,
+    rgba(255, 255, 255, 0.2) 37%,
+    rgba(255, 255, 255, 0.8) 45%,
+    rgba(255, 255, 255, 0.0) 50%
+  );
+  background-image: linear-gradient(
+    0 0,
+    rgba(255, 255, 255, 0.2) 0%,
+    rgba(255, 255, 255, 0.2) 37%,
+    rgba(255, 255, 255, 0.8) 45%,
+    rgba(255, 255, 255, 0.0) 50%
+  );
+  
+    -moz-background-size: 250% 250%, 100% 100%;
+    background-size: 250% 250%, 100% 100%;
+  
+    -webkit-transition: background-position 0s ease;
+    -moz-transition: background-position 0s ease;       
+    -o-transition: background-position 0s ease;
+    transition: background-position 0s ease;
+}
+
+.button.two:hover {
+    background-position: 0 0, 0 0;
+  
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+
+#changeBg
+{
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0; 
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 2; 
+  cursor: pointer; 
+}
+
+#textBox{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+}
+
+#largeText
+{
+    position: relative;
+    background: red;
+    background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet);
+    background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+    background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+    background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 70px;
+
+}
+#smallText
+{
+    color: white;
+    font-size: 30px;
+    background: red;
+    background: -webkit-linear-gradient(to top right, #ff3300 0%, #ffcc00 74%);
+    background: -o-linear-gradient(to top right, #ff3300 0%, #ffcc00 74%);
+    background: -moz-linear-gradient(to top right, #ff3300 0%, #ffcc00 74%);
+    background: linear-gradient(to top right, #ff3300 0%, #ffcc00 74%);
+    -webkit-background-clip: text;
+    background-clip: "text";
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+}
+
+#answerText
+{
+    color: white;
+    font-size: 30px;
+    background: red;
+    background: -webkit-linear-gradient(to bottom left, #cc33ff 0%, #ccff66 82%);
+    background: -o-linear-gradient(to bottom left, #cc33ff 0%, #ccff66 82%);
+    background: -moz-linear-gradient(to bottom left, #cc33ff 0%, #ccff66 82%);
+    background: linear-gradient(to bottom left, #cc33ff 0%, #ccff66 82%);
+    -webkit-background-clip: text;
+    background-clip: "text";
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;    
+}
